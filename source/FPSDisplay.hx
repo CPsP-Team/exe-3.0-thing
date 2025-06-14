@@ -1,4 +1,4 @@
-package;
+package openfl.display;
 
 import flixel.FlxG;
 import openfl.display.Shader;
@@ -94,6 +94,6 @@ class FPSDisplay extends TextField
 		if (data <= 2)
 			size = Math.round(size);
 
-			return size + " " + dataTexts[data];
+					return size + " " + dataTexts[data];
 	}
 }
